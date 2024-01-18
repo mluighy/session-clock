@@ -10,8 +10,8 @@ root.render(
     <body>
       <div id='title'>Session Clock</div>
       <SessionClock />  
-      <div id='lui'>Session clock made by Luighy
-          <audio id="beep" preload="auto" src={"https://cdn.freecodecamp.org/testable-projects-fcc/audio/BeepSound.wav"}>
+      <div id='lui'>Session clock made by Luighy      
+          <audio id="beep" preload="auto" src={"https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"}>
           </audio>
       </div>
     </body>
