@@ -1,0 +1,132 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  font-weight: bold;
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+#title {
+  color: red;
+  font-size: 2rem;
+  padding-bottom: 0.1em;
+}
+
+.header {
+  color: darkgreen;
+  font-size: 1rem;
+  padding-bottom: 3px;
+}
+
+#break-length, #session-length {
+  display: inline-block;
+  margin-top: -5px;
+  width: 1.4em;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  color: whitesmoke;
+  background-color: darkgreen;
+  border: 2px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
+
+button:hover {
+  background-color: red;
+  color: whitesmoke;
+  border-color: whitesmoke;
+}
+
+#time-left {
+  font-size: 3rem;
+  font-weight: bolder;
+  background-color: whitesmoke;
+  padding: 0 10px 0 10px;
+  border-radius: 15px;
+}
+
+#session-length, #break-length, #timer-label {
+  font-size: 2rem;
+}
+
+#setup {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#lui {
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+  padding-right: 3px;
+  align-self: center;
+}
+
+#setup, .control {
+  display: flex;
+  flex-direction: row;
+}
+
+#timer > .control {
+  padding-top: 10px;
+}
+
+#timer, #break-label, #session-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.3rem; 
+}
+
+#break-label {
+  border-top: 5px;
+  border-bottom: 5px;
+  border-left: 5px;
+  border-right: 0;
+  border-style: solid;
+  border-color: gray;
+  background-color: gainsboro;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;  
+}
+
+#session-label {
+  border-top: 5px;
+  border-bottom: 5px;
+  border-right: 5px;
+  border-left: 0;
+  border-style: solid;
+  border-color: gray;
+  background-color: gainsboro;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;  
+} 
+
+.material-symbols-outlined {
+  display: block;
+  font-family: Material+Symbols+Outlined;
+  font-size: 30px;
+  font-weight: bold
+}
