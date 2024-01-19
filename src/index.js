@@ -11,7 +11,7 @@ root.render(
       <div id='title'>Session Clock</div>
       <SessionClock />  
       <div id='lui'>Session clock made by Luighy      
-          <audio id="beep" preload="auto" src={"https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"}>
+          <audio id="beep" src={"https://mluighy.github.io/Product-Landing-Page/beep.mp3"}>
           </audio>
       </div>
     </body>
